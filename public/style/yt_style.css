@@ -1,0 +1,100 @@
+/*
+.container {
+    position: relative
+}
+*/
+  
+
+  .bv {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+
+  .bv video {
+    /*
+    background-position: top center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    overflow: scroll;
+    position: inherit;
+    right: 0;
+    top: 0;
+    */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1500;
+  }
+
+  .bv .bv-content {
+    z-index: 100;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+
+  
+  
+  video,
+  source {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+  
+  .loaded .ytplayer-container {
+    display: block;
+  }
+  
+  .loaded .placeholder-image {
+    opacity: 0;
+  }
+  
+  .ytplayer-container {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .placeholder-image {
+    height: 100%;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .ytplayer-shield {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .ytplayer-player {
+    position: absolute;
+  }
+  
+
+  .container {
+    border-radius: 6px;
+    /* background: rgba(255, 255, 255, .9); */  
+    padding: 0 30px 0 30px; 
+    margin: 30px auto;
+  }

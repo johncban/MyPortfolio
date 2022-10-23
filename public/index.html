@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>PROJECT PERSONAL</title>
+
+    <!-- Twitter Boostrap for Demo -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Load the alternate CSS first ... -->
+    <link
+      id="css-dark"
+      rel="stylesheet"
+      href="/public/style/bootstrap-night.css"
+      media="(prefers-color-scheme: dark)"
+    />
+    <!-- ... and then the primary CSS last for a fallback on very old browsers that don't support media filtering -->
+    <link
+      id="css-light"
+      rel="stylesheet"
+      href="style/style.css"
+      media="(prefers-color-scheme: light)"
+    />
+    <!-- / Bootstrap CSS -->
+
+    <!-- styles for video player -->
+    <link rel="stylesheet" href="/public/style/yt_style.css" />
+    <link rel="stylesheet" href="/public/style/style.css" />
+    <link rel="stylesheet" href="/public/style/border_style.css" />
+    <link rel="stylesheet" href="/public/style/mobile_style.css" />
+  </head>
+
+  <body>
+    <div>
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light shadow p-3 mb-5 bg-body fixed-top"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#collapseWelcome">Welcome</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="ms-auto d-flex">
+            <div class="form-check form-switch tooltip-demo">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="toggle-btn"
+                title=""
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                data-bs-title="Toggle Dark Mode or press [D] hot-key"
+              />
+              <label class="form-check-label" for="toggle-btn">Dark Mode</label>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <div id="collapseWelcome" class="header-con">
+        <div id="background-video" class="bv">
+          <div class="bv-content welcome-con">
+            <figure class="text-center d-block header-fig">
+              <blockquote class="blockquote">
+                <h1 id="scrollspyHeading0" class="text-dark fs-2">
+                  I am <q>Juan Carlo A. Banayo</q>.
+                </h1>
+              </blockquote>
+              <figcaption class="blockquote-footer text-white">
+                I live in
+                <cite title="Source Title">Jersey City, New Jersey</cite> and
+                everyone call's me <code class="text-success">Jc</code> just
+                like my city,
+                <code class="text-success">I like to create and code</code>.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div id="scrollspyHeading1">
+        <div class="parallax-one">
+          <h2 class="text-start text-white fs-2 shadow-lg p-3 mb-5 bg-gradient">
+            Projects
+          </h2>
+        </div>
+        <div class="m-4">
+          <p>
+            This is some placeholder content for the scrollspy page. Note that
+            as you scroll down the page, the appropriate navigation link is
+            highlighted. It's repeated throughout the component example. We keep
+            adding some more example copy here to emphasize the scrolling and
+            highlighting.
+          </p>
+        </div>
+
+        <div class="row mx-0 row-cols-2 g-0">
+          <div class="col-sm-6">
+            <img
+              src="https://cdn.statically.io/gh/johncban/freecodecamp-tributepage/2dde3f44/assets/img/page_preview.png"
+              class="img-fluid ratio h-100"
+            />
+          </div>
+          <div class="col-sm-6 bg-white bg-gradient">
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <div class="tribute text-wrap">
+                <h1 class="text-black">Tribute Page</h1>
+                <hr />
+                <p class="fw-normal text-secondary">
+                  First Free Code Camp Portfolio, composed of basic HTML/CSS and
+                  Javascript Accordion.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 bg-white bg-gradient">
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <div class="survey text-wrap portfolio-desc">
+                <h1 class="text-black">Survey Form</h1>
+                <hr />
+                <p class="fw-normal text-secondary">
+                  Second Free Code Camp Portfolio and first form to made with
+                  CSS3 with border effects.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <img
+              src="https://raw.githubusercontent.com/johncban/freecodecamp-surveyform/main/assets/readme/survey-form.png"
+              class="img-fluid ratio h-100"
+            />
+          </div>
+
+          <div class="col-sm-6">
+            <img
+              src="https://cdn.statically.io/gh/johncban/freecodecamp-productlandingpage/main/assets/image/readme/scrn_page.png"
+              class="img-fluid ratio h-100"
+            />
+          </div>
+
+          <div class="col-sm-6 bg-white bg-gradient">
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <div class="product text-wrap portfolio-desc">
+                <h1 class="text-black">Product Landing Page</h1>
+                <hr />
+                <p class="fw-normal text-secondary">
+                  Third Free Code Camp Portfolio, a project composed of video as
+                  a background, effects, adaptive layout and CSS3.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 bg-white bg-gradient">
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <div class="tech text-wrap portfolio-desc">
+                <h1 class="text-black">Technical Documentation Page</h1>
+                <hr />
+                <p class="fw-normal text-secondary">
+                  Fourth Free Code Camp Portfolio, a documentation form for
+                  Javascript with adaptive CSS3 layout and navigation
+                  accessability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <img
+              src="https://cdn.statically.io/gh/johncban/freecodecamp-technical_documentation/main/assets/image/scrn_shot.png"
+              class="img-fluid radio h-100"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="scrollspyHeading2">
+        <!-- class="mt-4 p-5 bg-light text-dark rounded" -->
+        <div class="parallax-two">
+          <h2 class="text-start text-white fs-2 shadow-lg p-3 mb-5 bg-gradient">
+            Contact
+          </h2>
+        </div>
+        <div class="m-4">
+          <p>
+            This is some placeholder content for the scrollspy page. Note that
+            as you scroll down the page, the appropriate navigation link is
+            highlighted. It's repeated throughout the component example. We keep
+            adding some more example copy here to emphasize the scrolling and
+            highlighting.
+          </p>
+
+          <div class="card form-shadow">
+            <div class="card-body">
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                />
+                <label for="floatingInput">Email address</label>
+              </div>
+
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/public/src/js/darkmode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAeBkWpVgWJ-2jO2PrGciygdNY48oYNhSM",
+        authDomain: "my-portfolio-49e2e.firebaseapp.com",
+        projectId: "my-portfolio-49e2e",
+        storageBucket: "my-portfolio-49e2e.appspot.com",
+        messagingSenderId: "987108733443",
+        appId: "1:987108733443:web:36a4839fd411cbb1c1d436",
+        measurementId: "G-51B5B5L2SZ"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+    <!-- ADD Jquery Video Background -->
+    <script src="/public/src/js/yt_background.js"></script>
+    <script src="/public/src/js/yt_background_settings.js"></script>
+  </body>
+</html>
