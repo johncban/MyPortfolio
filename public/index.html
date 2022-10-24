@@ -39,10 +39,28 @@
     <!-- / Bootstrap CSS -->
 
     <!-- styles for video player -->
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/yt_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/yt_style.css"
+    />
     <link rel="stylesheet" href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/style.css" />
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/border_style.css" />
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/mobile_style.css" />
+  
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/border_style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.statically.io/gh/johncban/MyPortfolio/main/public/style/mobile_style.css"
+    />
+
+
+
+    <link rel="stylesheet" href="/public/style/hover.css" />
+
+
+
   </head>
 
   <body>
@@ -127,12 +145,30 @@
         </div>
 
         <div class="row mx-0 row-cols-2 g-0">
+          
           <div class="col-sm-6">
+            <!--
             <img
               src="https://cdn.statically.io/gh/johncban/freecodecamp-tributepage/2dde3f44/assets/img/page_preview.png"
               class="img-fluid ratio h-100"
             />
+              -->
+            <div class="hover hover-1 text-black">
+              <img src="https://cdn.statically.io/gh/johncban/freecodecamp-tributepage/2dde3f44/assets/img/page_preview.png" alt="">
+              <div class="hover-overlay"></div>
+              <div class="hover-1-content px-5 py-4">
+                <h3 class="hover-1-title text-uppercase font-weight-bold mb-0"> <span class="font-weight-light">Image </span>Caption</h3>
+                <p class="hover-1-description font-weight-light mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              </div>
+            </div>
           </div>
+
+          
+
+  
+
+
+          <!--
           <div class="col-sm-6 bg-white bg-gradient">
             <div
               class="container d-flex align-items-center justify-content-center"
@@ -147,7 +183,8 @@
               </div>
             </div>
           </div>
-
+          -->
+          <!--
           <div class="col-sm-6 bg-white bg-gradient">
             <div
               class="container d-flex align-items-center justify-content-center"
@@ -162,7 +199,7 @@
               </div>
             </div>
           </div>
-
+          -->
           <div class="col-sm-6">
             <img
               src="https://raw.githubusercontent.com/johncban/freecodecamp-surveyform/main/assets/readme/survey-form.png"
@@ -177,6 +214,7 @@
             />
           </div>
 
+          <!--
           <div class="col-sm-6 bg-white bg-gradient">
             <div
               class="container d-flex align-items-center justify-content-center"
@@ -191,7 +229,9 @@
               </div>
             </div>
           </div>
+          -->
 
+          <!--
           <div class="col-sm-6 bg-white bg-gradient">
             <div
               class="container d-flex align-items-center justify-content-center"
@@ -207,6 +247,8 @@
               </div>
             </div>
           </div>
+          -->
+
           <div class="col-sm-6">
             <img
               src="https://cdn.statically.io/gh/johncban/freecodecamp-technical_documentation/main/assets/image/scrn_shot.png"
@@ -274,7 +316,7 @@
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
       // TODO: Add SDKs for Firebase products that you want to use
       // https://firebase.google.com/docs/web/setup#available-libraries
-    
+
       // Your web app's Firebase configuration
       // For Firebase JS SDK v7.20.0 and later, measurementId is optional
       const firebaseConfig = {
@@ -284,9 +326,9 @@
         storageBucket: "my-portfolio-49e2e.appspot.com",
         messagingSenderId: "987108733443",
         appId: "1:987108733443:web:36a4839fd411cbb1c1d436",
-        measurementId: "G-51B5B5L2SZ"
+        measurementId: "G-51B5B5L2SZ",
       };
-    
+
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
